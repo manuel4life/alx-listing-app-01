@@ -24,7 +24,6 @@ const PropertyDetail: React.FC<{ property: PropertyProps }> = ({
           width={1200}
           height={400}
         />
-        {/* Add more images */}
       </div>
 
       {/* Description */}
