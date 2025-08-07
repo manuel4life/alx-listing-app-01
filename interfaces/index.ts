@@ -30,4 +30,20 @@ export interface PropertyProps {
   image: string;
   discount: string;
   price: number;
+  description: string;
+}
+
+export interface Review {
+  name: string;
+  avatar: string;
+  rating: number;
+  comment: string;
+}
+
+export interface PropertyDetailProps {
+  property: PropertyProps;
+}
+
+export interface BookingSectionProps {
+  price: number;
 }
